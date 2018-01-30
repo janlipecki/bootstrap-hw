@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    
+
     <title>Portfolio (bootstrap)</title>
-    
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,9 +15,10 @@
     <!--    font awesome-->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <!--    main style -->
+    <!--    main styles -->
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/responsive.css">
+
     <!--    fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&amp;subset=latin-ext" rel="stylesheet">
 
@@ -27,37 +28,19 @@
 <body>
     <!--       blok nawigacji startowej-->
 
-<nav id="navigation-menu" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav id="navigation-menu" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">o mnie</a>
-            <a class="nav-item nav-link" href="#">umiejętności</a>
-            <a class="nav-item nav-link" href="#">portfolio</a>
-            <a class="nav-item nav-link" href="#">kontakt</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#about-header">o mnie</a>
+                <a class="nav-item nav-link" href="#skills-header">umiejętności</a>
+                <a class="nav-item nav-link" href="#portfolio-header">portfolio</a>
+                <a class="nav-item nav-link" href="#contact-header">kontakt</a>
+            </div>
         </div>
-    </div>
-</nav>
-  
-   
-   
-<!--
-    <nav id="navigation-menu">
-        
-        <label for="drop" class="toggle">Menu</label>
-        <input type="checkbox" id="drop">
-        
-        <ul>
-            <li><a href="#about">o mnie</a></li>
-            <li><a href="#skills">umiejętności</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">kontakt</a></li>
-        </ul>
     </nav>
--->
-
 
 
     <!--    header: imię i nazwisko oraz posada -->
@@ -72,166 +55,165 @@
     <!--       o mnie - zdjęcie i opis Jana Nowaka   -->
     <section id="about" class='container-fluid'>
         <div class="row">
-           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-            <h3><span class="roboto-100">O </span><span class="font-color-green">mnie</span></h3>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <h3 id="about-header"><span class="roboto-100">O </span><span class="font-color-green">mnie</span></h3>
             </div>
         </div>
-        
+
         <div class="row">
-           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
-            <figure>
-                <img src="img/jan-nowak.jpg" alt="Zdjęcie-portret Jana Nowaka">
-            </figure>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+                <figure>
+                    <img src="img/jan-nowak.jpg" alt="Zdjęcie-portret Jana Nowaka">
+                </figure>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
-               <div class="inner-text">
-                <p class="roboto-100 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nihil in aliquid facilis, voluptate voluptatibus numquam sed distinctio. Corporis ipsam, mollitia cum eius nam perferendis nostrum esse, doloribus quisquam accusantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, iure sint praesentium exercitationem veritatis odio excepturi nobis corporis non quas velit dolor sit sunt explicabo optio ab. Error, laborum, debitis.</p>
+                <div class="inner-text">
+                    <p class="roboto-100 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nihil in aliquid facilis, voluptate voluptatibus numquam sed distinctio. Corporis ipsam, mollitia cum eius nam perferendis nostrum esse, doloribus quisquam accusantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, iure sint praesentium exercitationem veritatis odio excepturi nobis corporis non quas velit dolor sit sunt explicabo optio ab. Error, laborum, debitis.</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!--    moje umiejętności-->
     <section id="skills" class='container-fluid'>
-       <div class="row">
-       <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-        <h3><span class="roboto-100">Moje</span> <span class="font-color-green">umiejętności</span></h3>
-        <p class="inner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum accusantium nisi recusandae repudiandae amet, ipsa enim ullam suscipit repellendus quam quidem molestias rem, fuga similique non quaerat. Inventore, labore iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quod sunt facilis voluptas ducimus, placeat reiciendis, nihil quo accusamus odit assumenda ex.</p>
-        </div>
-        </div>
-        
         <div class="row">
-             <div class="col-lg-2 col-xl-2"></div>
-            
-            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl- ">
-            <figure class="icon">
-                <img src="icons/html5.png" alt="">
-                <figcaption>HTML</figcaption>
-            </figure>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <h3 id="skills-header"><span class="roboto-100">Moje</span> <span class="font-color-green">umiejętności</span></h3>
+                <p class="inner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum accusantium nisi recusandae repudiandae amet, ipsa enim ullam suscipit repellendus quam quidem molestias rem, fuga similique non quaerat. Inventore, labore iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quod sunt facilis voluptas ducimus, placeat reiciendis, nihil quo accusamus odit assumenda ex.</p>
             </div>
-            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 col-xl-2"></div>
+
             <div class="col-12 col-sm-12 col-md-6 col-lg col-xl- ">
-            <figure class="icon">
-                <img src="icons/css3.png" alt="">
-                <figcaption>CSS</figcaption>
-            </figure>
+                <figure class="icon">
+                    <img src="icons/html5.png" alt="">
+                    <figcaption>HTML</figcaption>
+                </figure>
             </div>
 
             <div class="col-12 col-sm-12 col-md-6 col-lg col-xl- ">
-            <figure class="icon">
-                <img src="icons/js.png" alt="">
-                <figcaption>JavaScript</figcaption>
-            </figure >
+                <figure class="icon">
+                    <img src="icons/css3.png" alt="">
+                    <figcaption>CSS</figcaption>
+                </figure>
             </div>
 
-           <div class="col-12 col-sm-12 col-md-6 col-lg col-xl- ">
-            <figure class="icon">
-                <img src="icons/jquery.png" alt="">
-                <figcaption>jQuery</figcaption>
-            </figure>
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl- ">
+                <figure class="icon">
+                    <img src="icons/js.png" alt="">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
             </div>
-            
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg col-xl- ">
+                <figure class="icon">
+                    <img src="icons/jquery.png" alt="">
+                    <figcaption>jQuery</figcaption>
+                </figure>
+            </div>
+
             <div class="col-lg-2 col-xl-2"></div>
         </div>
- 
-    </section>
-<!--    moje portfolio-->
-<section id="portfolio" class="container-fluid">
-    <h3><span class="font-weight-100">Moje</span> <span class="font-color-green">portfolio</span></h3>
-    <div class="row">
-            <div id="portfolio1" class="portfolio-square">
-            <div class="portfolio-mask">
-                <div class="portfolio-frame">
-                    <div class="portfolio-text">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
-                        <h4>Wykorzystane technologie:</h4>
-                        <p>HTML, CSS, RWD, Bootstrap</p>
-                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-
-           <div id="portfolio2" class="portfolio-square">
-            <div class="portfolio-mask">
-                <div class="portfolio-frame">
-                    <div class="portfolio-text">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
-                        <h4>Wykorzystane technologie:</h4>
-                        <p>HTML, CSS, RWD, Bootstrap</p>
-                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-           <div id="portfolio3" class="portfolio-square">
-            <div class="portfolio-mask">
-                <div class="portfolio-frame">
-                    <div class="portfolio-text">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
-                        <h4>Wykorzystane technologie:</h4>
-                        <p>HTML, CSS, RWD, Bootstrap</p>
-                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--trzeba wystylować linka-->
-<!--i z ikonką kotwicy powinno iść do linka-->
-    <section id="contact" class="container-fluid">
-       <div class="row">
-        <div class="col-md-1 col-lg-1 col-xl-1"></div>
-           <div class="contact-data col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-            <h3>Jan <span class="font-color-green">Nowak</span></h3>
-            
-            <adress>
-            <br/>ul. Mostowa 6/13
-            <br/>31-061 Kraków
-            <br/>
-            <br/>tel. 606 74 57 59
-            <br/>e-mail: <a href="mailto:example@example.pl"><span class="font-color-green">example@example.pl</span></a>
-            </adress>
-            
-            <div class="sm-icons">
-            <a href=""><i class="fa fa-facebook fa-2x"></i></a>
-            <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
-            <a href=""><i class="fa fa-twitter fa-2x"></i></a>
-            <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
-            </div>
-        </div>
-        
-        
-        <div class="form col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-           <form action="">
-               <input type="text" id="name" placeholder="Imię i nazwisko" ><br/>
-               <input type="email" id="mail" placeholder="E-mail"  ><br/>
-               <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Treść wiadomości"></textarea><br/>
-           </form>
-           <button type="button" class="btn btn-success">Wyślij</button>
-        </div>
-        <div class="col-md-1 col-lg-1 col-xl-1"></div>
-
-        </div>
     </section>
     
+    <!--    moje portfolio-->
+    <section id="portfolio" class="container-fluid">
+        <h3 id="portfolio-header"><span class="font-weight-100">Moje</span> <span class="font-color-green">portfolio</span></h3>
+        <div class="row">
+            <div id="portfolio1" class="portfolio-square">
+                <div class="portfolio-mask">
+                    <div class="portfolio-frame">
+                        <div class="portfolio-text">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
+                            <h4>Wykorzystane technologie:</h4>
+                            <p>HTML, CSS, RWD, Bootstrap</p>
+                            <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="portfolio2" class="portfolio-square">
+                <div class="portfolio-mask">
+                    <div class="portfolio-frame">
+                        <div class="portfolio-text">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
+                            <h4>Wykorzystane technologie:</h4>
+                            <p>HTML, CSS, RWD, Bootstrap</p>
+                            <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="portfolio3" class="portfolio-square">
+                <div class="portfolio-mask">
+                    <div class="portfolio-frame">
+                        <div class="portfolio-text">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
+                            <h4>Wykorzystane technologie:</h4>
+                            <p>HTML, CSS, RWD, Bootstrap</p>
+                            <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 col-lg-1 col-xl-1"></div>
+            <div class="contact-data col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <h3 id="contact-header">Jan <span class="font-color-green">Nowak</span></h3>
+
+                <adress>
+                    <br/>ul. Mostowa 6/13
+                    <br/>31-061 Kraków
+                    <br/>
+                    <br/>tel. 606 74 57 59
+                    <br/>e-mail: <a href="mailto:example@example.pl"><span class="font-color-green">example@example.pl</span></a>
+                </adress>
+
+                <div class="sm-icons">
+                    <a href=""><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
+                    <a href=""><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+
+
+            <div class="form col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <form action="">
+                    <input type="text" id="name" placeholder="Imię i nazwisko"><br/>
+                    <input type="email" id="mail" placeholder="E-mail"><br/>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Treść wiadomości"></textarea><br/>
+                </form>
+                <button type="button" class="btn btn-success">Wyślij</button>
+            </div>
+            <div class="col-md-1 col-lg-1 col-xl-1"></div>
+
+        </div>
+    </section>
+
     <footer>
         <p>Copyright &copy; Jan Nowak</p>
     </footer>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-<!--    <script src="js/main.js"></script>-->
+    <!--    <script src="js/main.js"></script>-->
 
 </body>
 

@@ -159,6 +159,11 @@ h3 {
 /*    tutaj dałem margin-bottom do głównej sekcji żeby zrobić przestrzeń na dole żeby było łatwiej, ale na przyszłość tak nie rób! ikonki powinieneś zapakować w jeszcze jedno pudełko*/
 }
 
+#skills-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #skills h3 .roboto-100{
     font-weight: 100;
 }
@@ -195,6 +200,8 @@ h3 {
 
 #portfolio > h3 {
     color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #portfolio1 {
@@ -289,22 +296,6 @@ h3 {
     float: left;
 }
 
-/*
-#contact .contact-data .fa {
-    width: 45px;
-    height: 45px;
-    border: 1px solid white;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-}
-*/
-
-/*stylowanie po linku!!!*/
-
-/* poniżej tak jak to zrobił Marcin */
-
 #contact .sm-icons a {
     display: inline-block;
     width: 50px;
@@ -359,7 +350,7 @@ h3 {
 */ 
 }
 
-/*footer*/
+/* FOOTER */
 footer {
     color: white;
     font-family: 'Roboto', sans-serif;

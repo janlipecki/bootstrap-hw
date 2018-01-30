@@ -1,21 +1,27 @@
+@media all and (min-width: 1171px) {
+}
+
+/*TABLETY ITP.*/
+
+@media all and (min-width: 992px) and (max-width: 1171px) {
+
+/*SMARTFONY ITP.*/
+    
 @media all and (max-width: 992px) {
-    #navigation-menu .toggle {
-        display: block;
-        color: #1AC056;
-        font-size: 20px;
-        text-align: right;
-        line-height: 50px;
+    #businesscard .name-job-title h1,
+    #businesscard .name-job-title h2 {
+        font-size: 12px;
     }
     
-    #navigation-menu ul {
-        display: none;
-    }
-    
-    #navigation-menu #drop:checked + ul {
-        display: block;
-    }
-    
-    #navigation-menu ul li {
-        width: 100%;
-    }
+    #name,
+    #mail,
+    #msg {
+    width: 80%;
+/*
+    color: white;
+    background-color: rgb(43, 74, 100);
+    border: none;
+    margin-top: 20px;
+*/
+}
 }
