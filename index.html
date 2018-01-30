@@ -113,83 +113,63 @@
             
             <div class="col-md-2 col-lg-2 col-xl-2"></div>
         </div>
-        
-<!-- PONIŻEJ KOD KTÓRY DZIAŁAŁ, ALE BYŁ OPARTY NA DIVACH:
-        P
-        <div class="icon"><img src="icons/html5.png" alt="">
-            <br/>
-            <br/>
-            HTML5<br/>
-            <br/>    
-        </div>
-        <div class="icon"><img src="icons/css3.png" alt="">
-            <br/>
-            <br/>
-            CSS3<br/>
-            <br/> 
-        </div>
-        <div class="icon"><img src="icons/js.png" alt="">
-            <br/>
-            <br/>
-            JavaScript<br/>
-            <br/> 
-        </div>
-        <div class="icon"><img src="icons/jquery.png" alt="">
-            <br/>
-            <br/>
-            jQuery<br/>
-            <br/> 
-        </div>
--->
+ 
     </section>
 <!--    moje portfolio-->
-    <section id="portfolio">
-        <h3><span class="font-weight-100">Moje</span> <span class="font-color-green">portfolio</span></h3>
+<section id="portfolio" class="container-fluid">
+    <h3><span class="font-weight-100">Moje</span> <span class="font-color-green">portfolio</span></h3>
+    <div class="row">
             <div id="portfolio1" class="portfolio-square">
-                <div class="portfolio-mask">
-                    <div class="portfolio-frame">
-                        <div class="portfolio-text">
-                            <h3>Lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
-                            <h4>Wykorzystane technologie:</h4>
-                            <p>HTML, CSS, RWD, Bootstrap</p>
-                            <a href=""><i class="fa fa-chain fa-2x"></i></a>       
-                        </div>
+            <div class="portfolio-mask">
+                <div class="portfolio-frame">
+                    <div class="portfolio-text">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
+                        <h4>Wykorzystane technologie:</h4>
+                        <p>HTML, CSS, RWD, Bootstrap</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
                     </div>
                 </div>
             </div>
-            <div id="portfolio2" class="portfolio-square">
-                <div class="portfolio-mask">
-                    <div class="portfolio-frame">
-                        <div class="portfolio-text">
-                            <h3>Lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
-                            <h4>Wykorzystane technologie:</h4>
-                            <p>HTML, CSS, RWD, Bootstrap</p>
-                            <a href=""><i class="fa fa-chain fa-2x"></i></a>    
-                        </div>
+        </div>
+
+
+           <div id="portfolio2" class="portfolio-square">
+            <div class="portfolio-mask">
+                <div class="portfolio-frame">
+                    <div class="portfolio-text">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
+                        <h4>Wykorzystane technologie:</h4>
+                        <p>HTML, CSS, RWD, Bootstrap</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
                     </div>
                 </div>
             </div>
-            <div id="portfolio3" class="portfolio-square">
-                <div class="portfolio-mask">
-                    <div class="portfolio-frame">
-                        <div class="portfolio-text">
-                            <h3>Lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
-                            <h4>Wykorzystane technologie:</h4>
-                            <p>HTML, CSS, RWD, Bootstrap</p>
-                            <a href=""><i class="fa fa-chain fa-2x"></i></a>
-                        </div>
+        </div>
+
+           <div id="portfolio3" class="portfolio-square">
+            <div class="portfolio-mask">
+                <div class="portfolio-frame">
+                    <div class="portfolio-text">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum quia, laudantium minima quos id hic earum. Consequatur doloremque quasi maxime eum, maiores autem ex, tempore debitis assumenda dignissimos nostrum!</p>
+                        <h4>Wykorzystane technologie:</h4>
+                        <p>HTML, CSS, RWD, Bootstrap</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
+    </div>
+</section>
 
 <!--trzeba wystylować linka-->
 <!--i z ikonką kotwicy powinno iść do linka-->
-    <section id="contact">
-        <div class="contact-data">
+    <section id="contact" class="container-fluid">
+       <div class="row">
+        <div class="col-md-1 col-lg-1 col-xl-1"></div>
+           <div class="contact-data col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
             <h3>Jan <span class="font-color-green">Nowak</span></h3>
             
             <adress>
@@ -207,15 +187,20 @@
             <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
             </div>
         </div>
-        <div class="form">
+        
+        
+        <div class="form col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
            <form action="">
                <input type="text" id="name" placeholder="Imię i nazwisko" ><br/>
                <input type="email" id="mail" placeholder="E-mail"  ><br/>
                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Treść wiadomości"></textarea><br/>
            </form>
-           <input type="submit" value="wyślij" id="button-send">
+<!--           <input type="submit" value="wyślij" id="button-send">-->
+           <button type="button" class="btn btn-success">Wyślij</button>
         </div>
-        <div class="last-child"></div>
+        <div class="col-md-1 col-lg-1 col-xl-1"></div>
+
+        </div>
     </section>
     
     <footer>
