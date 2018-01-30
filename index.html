@@ -2,20 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
     
-<!--    styles-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Portfolio (bootstrap)</title>
     
-<!--    fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&amp;subset=latin-ext" rel="stylesheet">
-    
-    
-<!--    font awesome-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--    Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!--    font awesome-->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!--    main style -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--    fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&amp;subset=latin-ext" rel="stylesheet">
+
 
 </head>
 
@@ -37,7 +42,7 @@
 
     <!--    header: imię i nazwisko oraz posada -->
     <header id="businesscard">
-        <div class="name-job-title">
+        <div class="container-fluid name-job-title">
             <h1><span class="roboto-100">Jan</span> <span class="font-color-green">Nowak</span></h1>
             <h2><span class="roboto-100">Front-End Developer</span></h2>
         </div>
@@ -45,15 +50,25 @@
 
 
     <!--       o mnie - zdjęcie i opis Jana Nowaka   -->
-    <section id="about">
-        <h3><span class="roboto-100">O </span><span class="font-color-green">mnie</span></h3>
-        <figure>
-            <img src="img/jan-nowak.jpg" alt="Zdjęcie-portret Jana Nowaka">
-        </figure>
-        <div class="inner-text">
-            <p class="roboto-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nihil in aliquid facilis, voluptate voluptatibus numquam sed distinctio. Corporis ipsam, mollitia cum eius nam perferendis nostrum esse, doloribus quisquam accusantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, iure sint praesentium exercitationem veritatis odio excepturi nobis corporis non quas velit dolor sit sunt explicabo optio ab. Error, laborum, debitis.</p>
+    <section id="about" class='container-fluid'>
+        <div class="row">
+           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+            <h3><span class="roboto-100">O </span><span class="font-color-green">mnie</span></h3>
+            </div>
         </div>
-        <div class="last-child"></div>
+        
+        <div class="row">
+           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+            <figure>
+                <img src="img/jan-nowak.jpg" alt="Zdjęcie-portret Jana Nowaka">
+            </figure>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+               <div class="inner-text">
+                <p class="roboto-100 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nihil in aliquid facilis, voluptate voluptatibus numquam sed distinctio. Corporis ipsam, mollitia cum eius nam perferendis nostrum esse, doloribus quisquam accusantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, iure sint praesentium exercitationem veritatis odio excepturi nobis corporis non quas velit dolor sit sunt explicabo optio ab. Error, laborum, debitis.</p>
+                </div>
+            </div>
+        </div>
     </section>
     
     <!--    moje umiejętności-->
@@ -187,6 +202,13 @@
     <footer>
         <p>Copyright &copy; Jan Nowak</p>
     </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+<!--    <script src="js/main.js"></script>-->
 
 </body>
 
