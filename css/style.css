@@ -114,6 +114,10 @@ h3 {
     font-weight: 100;
 }
 
+#about p {
+    text-align: left;
+}
+
 #about h3 {
     text-align: center;
     margin: 0;
@@ -217,10 +221,10 @@ h3 {
 }
 
 #portfolio .portfolio-square {
-    width: 33.3333%;
+/*    width: 33.3333%;*/
     height: 400px;
     display: inline-block;
-    float: left;
+/*    float: left;*/
     background-size: cover;
     background-repeat: no-repeat;
     

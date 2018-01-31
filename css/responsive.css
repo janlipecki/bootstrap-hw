@@ -5,12 +5,51 @@
 
 @media all and (min-width: 992px) and (max-width: 1171px) {
 
+}
 /*SMARTFONY ITP.*/
     
 @media all and (max-width: 992px) {
-    #businesscard .name-job-title h1,
+/*
+    #businesscard {
+    height: 80vh;
+    background-image: url(../img/header-background.jpg);
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+*/
+    
+    #businesscard .name-job-title {
+        line-height: 4em;
+    }
+    
+    #businesscard .name-job-title h1 {
+        font-size: 5em;
+    }
     #businesscard .name-job-title h2 {
-        font-size: 12px;
+        font-size: 2em;
+    }
+    
+    #about p {
+        text-align: center;
+    }
+    
+    #portfolio {
+        height: 200vh;
+    }
+    
+    #portfolio #portfolio1,
+    #portfolio #portfolio2,
+    #portfolio #portfolio3 {
+        width: 100%;
+    }
+    
+    #contact .contact-data {
+        text-align: center;
+    }
+    
+    #contact .contact-data h3 {
+        text-align: center;
     }
     
     #name,
